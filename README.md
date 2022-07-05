@@ -1,14 +1,19 @@
 # honeypot-detector v1.0.1
 
 ## Usage
+
 ```bash
-$ honeypot-detector -h
+$ make -f Makefile
+```
+
+```bash
+$ ./honeypot-detector -h
 honeypot-detector v1.0.1 - (c) 2017 Jorge Matricali
 usage: ./honeypot-detector [-l targets.lst] [-p port] [-j threads] [-t timeout] [-vh] [target]
 ```
 
 ```bash
-$ honeypot-detector 192.168.0.26
+$ ./honeypot-detector 192.168.0.26
 [!] 192.168.0.26:22 - POSSIBLE HONEYPOT!
 ```
 
